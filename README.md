@@ -20,18 +20,22 @@ and Registered users will see the content within these tags {registered}{/regist
 Will show for registered users: content to display
 
 ## Using in Modules
-To include content for Guests, use will see this:
-{displayguest modulename}
+To include content for Guests, use this:
+{displayguest modulename}  
 
-To include content for Registered users, use this:
-{displayreg modulename}
+If a user is not logged in, they will see the module called "modulename"  
 
-Where "modulename" is the custom module.
+To include content for Registered users, use this:  
+{displayreg modulename}  
+
+Registered users will see "modulename"  
+  
+Where "modulename" is the custom module.  
 
 # Contribute
-The repository is mainly if you want to change the code and modify the plugin to fit your needs. If you just want to download and run it on Joomla, you can do it from here:
+The repository is mainly if you want to change the code and modify the plugin to fit your needs. If you just want to download and run it on Joomla, you can do it from here:  
 https://www.alttechnical.com/rotate-plugin-for-joomla
 
 # Reporting bugs
-Report bugs to us directly:
+Report bugs to us directly:  
 https://www.altconsulting.com/contact-us/contact-form
