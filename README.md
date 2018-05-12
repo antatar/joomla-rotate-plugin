@@ -1,7 +1,7 @@
 # joomla-rotate-plugin
 
 # Description
-joomlaJoomla 3+ plugin for displaying one type of content for registered users and another type of content for guests within an article.
+Joomla 3+ plugin for displaying one type of content for registered users and another type of content for guests within an article.
 
 # Usage
 Content can be displayed inline or using a module:
