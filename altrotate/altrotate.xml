@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="content">
+	<name>ALT Rotate Plugin</name>
+	<author>ALT</author>
+	<creationDate>Jan 2017</creationDate>
+	<copyright>Copyright (C) 2018 Alt Consulting Group</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>dev@alttechnical.com</authorEmail>
+	<authorUrl>www.alttechnical.com</authorUrl>
+	<version>1.0</version>
+	<description>Display one type of content for Registered users and another for Guests</description>
+
+	<files>
+		<filename plugin="altrotate">altrotate.php</filename>
+		<filename>index.html</filename>
+		<folder>language</folder>
+	</files>
+	<languages folder="language">
+		<!--
+			these files will be installed in the administrator/language folder.
+		-->
+		<language tag="en-GB">en-GB/en-GB.plg_content_altrotate.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_content_altrotate.sys.ini</language>
+	</languages>
+
+	<config>
+
+	</config>
+	
+	<!-- UPDATESERVER DEFINITION -->
+	<updateservers>
+		<!-- Note: No spaces or linebreaks allowed between the server tags -->
+		<server type="extension" priority="1" name="ALT Rotate Plugin">http://www.alttechnical.com/downloads/update/altrotate-update.xml</server>
+	</updateservers>
+	
+</extension>
