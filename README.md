@@ -38,4 +38,4 @@ https://www.alttechnical.com/rotate-plugin-for-joomla
 
 # Reporting bugs
 Report bugs to us directly:  
-https://www.altconsulting.com/contact-us/contact-form
+https://www.alttechnical.com/contact-form
